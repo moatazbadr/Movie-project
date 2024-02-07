@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color: #22254b;
-    --secondary-color: #373b69;
+    --primary-color: #bebfca;
+    --secondary-color: #45454a;
+    --vote:
 }
 
 body {
@@ -33,7 +34,7 @@ header{
     background-color: var(--primary-color);
  }
  .search::placeholder{
-    color: #7378c5; 
+    color: #b7e3f8; 
  }
 
  #main{
