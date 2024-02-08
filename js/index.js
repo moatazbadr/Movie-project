@@ -23,7 +23,8 @@ const  search= document.getElementById("search");
 function showMovies(data){
     main.innerHTML=" ";
 data.forEach(movie => {
-    const {title,poster_path,vote_average,overview}=movie;
+    var {title,poster_path,vote_average,overview}=movie;
+ vote_average =Math.round(vote_average * 10)/10;
     const movieElement=document.createElement('div');
     movieElement.classList.add('movie')
     movieElement.innerHTML=

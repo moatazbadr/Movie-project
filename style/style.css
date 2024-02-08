@@ -6,9 +6,19 @@
 :root{
     --primary-color: #bebfca;
     --secondary-color: #45454a;
-    --vote:
+    --vote:#3b3b3b;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
+
+.logo-container span {
+    font-size:1.2rem;
+    color: beige;
+}
 body {
     background-color:var(--primary-color);
     font-family: 'Poppins',sans-serif;
@@ -17,7 +27,7 @@ body {
 header{
     padding: 1rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: var(--secondary-color);
 }
 .search{
@@ -68,7 +78,7 @@ overflow: hidden;
     margin-top: 0;
  }
 .movie-info span{
-    background-color: var(--primary-color);
+    background-color: var(--vote);
     padding: 0.25rem 0.25rem;
     border-radius: 3px;
     font-weight: bold; 
